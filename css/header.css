@@ -1,0 +1,34 @@
+.dropdown-menu {
+    font-size: 12px;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -4px;
+    left: 15px;
+    text-align: center;
+    width: 160px;
+}
+
+.btn-group>button {
+    background-color: #f18a3a;
+    border: none;
+    padding-right: 5px;
+    font-weight: 700;
+    font-size:  0.875rem;
+    padding-right: 10px;
+    padding-left: 20px;
+    letter-spacing: normal;
+    border-radius: 50px;
+}
+
+.btn.btn-danger:hover {
+    background-color: #ef7e1e;
+}
+
+.btn.btn-danger {
+    --bs-btn-active-bg: #f18e3a;
+    --bs-btn-active-border-color: #f18e3a;
+}
